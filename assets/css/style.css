@@ -67,6 +67,14 @@ p {
   border-radius: 0 0px 10px 10px;
 }
 
+@media only screen and (max-width: 767px) {
+  #popular-category {
+    margin: 20px 0;
+  }
+  #popular-category .popular-category-item {
+    margin: 20px 0;
+  }
+}
 #popular-course {
   margin-top: 80px;
 }
@@ -82,7 +90,6 @@ p {
 #popular-course .popular-course-item {
   margin-top: 30px;
   border: 1px solid #f1f1f1;
-  height: 100%;
 }
 #popular-course .popular-course-item .popular-course-item-img img {
   border-radius: 10px 10px 0 0;
@@ -115,6 +122,11 @@ p {
   height: 15px;
 }
 
+@media only screen and (max-width: 767px) {
+  #popular-course {
+    margin: 20px 0;
+  }
+}
 #our-teachers {
   margin: 100px 0;
 }
@@ -151,4 +163,73 @@ p {
 #our-teachers .card img {
   border-radius: 10px 10px 0 0;
   padding: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  #our-teachers {
+    margin: 20px 0 !important;
+  }
+}
+#reviews {
+  margin: 80px 0;
+  padding: 50px;
+  background: rgb(246, 247, 250);
+}
+#reviews .reviews-title {
+  margin: 40px 0;
+}
+#reviews .span-green {
+  color: var(--green);
+}
+#reviews .reviews-des {
+  color: var(--gray);
+}
+#reviews .card {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+#reviews .card .star {
+  margin: 10px 0;
+}
+#reviews .card .star img {
+  width: 20px;
+  height: 20px;
+}
+#reviews .card .card-text {
+  margin: 20px 0;
+}
+#reviews .card .card-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+#reviews .card .card-profile {
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+}
+#reviews .card .card-profile .card-profile-img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+#reviews .card .card-profile .card-profile-text .card-profile-name {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #1b1d1f;
+}
+#reviews .card .card-profile .card-profile-text .card-profile-desc {
+  color: #57a938;
+}
+
+@media only screen and (max-width: 767px) {
+  #reviews {
+    padding: 10px;
+    margin: 10px 0;
+  }
+  #reviews .reviews-title {
+    margin: 10px 0;
+  }
 }
