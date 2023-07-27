@@ -3,11 +3,259 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/scss/style.scss" />
+    <title>McTab</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
   </head>
 
   <body>
+    <header>
+      <section id="header-top"></section>
+
+      <section id="header-main">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="header-logo">
+                <img src="./assets/images/McTab-logo.png" alt="McTab-Logo" />
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="header-catgorye">
+                <ul>
+                  <li><a href="#">Academiya</a></li>
+                  <li><a href="#">Kateqoriyalar</a></li>
+                  <li><a href="#">Kurslar</a></li>
+                  <li><a href="#">Müəllimlər</a></li>
+                  <li><a href="#">Əlaqə</a></li>
+                  <li><a href="#">Müraciət et</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="banner-slider">
+        <div class="container-fluid">
+          <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./assets/images/img1.png"
+                    class="d-block w-100"
+                    alt="Banner-img"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./assets/images/img1.png"
+                    class="d-block w-100"
+                    alt="Banner-img"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./assets/images/img1.png"
+                    class="d-block w-100"
+                    alt="Banner-img"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="popular-category">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="popular-category-title">
+                <h2>
+                  <span class="span-green">Ən </span> Populyar Kateqoriyalar
+                </h2>
+                <p class="popular-category-des">
+                  Kateqoriyanı seçin və öyrənməyə başlayın.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="popular-category-btn d-flex justify-content-end align-items-center">
+                <a href="#" class="all-category">Bütün kateqoriyalar</a>
+                <span
+                  ><img src="./assets/images/ph_arrow-left-thin.png" alt="McTab " class="img-fluid prev-green"
+                /></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3">
+              <div class="popular-category-item">
+                <div class="popular-category-item-title">
+                  <img
+                    src="./assets/images/texnolog1.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <p>Texnologiya</p>
+                  <img
+                    src="./assets/images/Frame 23.png"
+                    class="img-fluid prev"
+                    alt=""
+                  />
+                </div>
+                <div class="popular-category-item-img">
+                  <img
+                    class="img-fluid"
+                    src="./assets/images/ai-nuclear-energy-background-future-innovation-disruptive-technology (2).png"
+                    alt="Popular-img"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="popular-category-item">
+                <div class="popular-category-item-title">
+                  <img
+                    src="./assets/images/Group.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <p>Proqramlaşdrma</p>
+                  <img
+                    src="./assets/images/Frame 23.png"
+                    class="img-fluid prev"
+                    alt=""
+                  />
+                </div>
+                <div class="popular-category-item-img">
+                  <img
+                    class="img-fluid"
+                    src="./assets/images/programming-background-with-person-working-with-codes-computer (1).png"
+                    alt="Popular-img"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="popular-category-item">
+                <div class="popular-category-item-title">
+                  <img
+                    src="./assets/images/bx_math.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <p>Riyaziyyat</p>
+                  <img
+                    src="./assets/images/Frame 23.png"
+                    class="img-fluid prev"
+                    alt=""
+                  />
+                </div>
+                <div class="popular-category-item-img">
+                  <img
+                    class="img-fluid"
+                    src="./assets/images/8084.png"
+                    alt="Popular-img"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="popular-category-item">
+                <div class="popular-category-item-title">
+                  <img
+                    src="./assets/images/clarity_language-line.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <p>Xarici dillər</p>
+                  <img
+                    src="./assets/images/Frame 23.png"
+                    class="img-fluid prev"
+                    alt=""
+                  />
+                </div>
+                <div class="popular-category-item-img">
+                  <img
+                    class="img-fluid"
+                    src="./assets/images/394237-PCIWI6-171.png"
+                    alt="Popular-img"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+
     <script src="./assets/js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
