@@ -82,6 +82,7 @@ p {
 #popular-course .popular-course-item {
   margin-top: 30px;
   border: 1px solid #f1f1f1;
+  height: 100%;
 }
 #popular-course .popular-course-item .popular-course-item-img img {
   border-radius: 10px 10px 0 0;
@@ -112,4 +113,42 @@ p {
 #popular-course .popular-course-item .popular-course-item-title-star img {
   width: 15px;
   height: 15px;
+}
+
+#our-teachers {
+  margin: 100px 0;
+}
+#our-teachers .span-green {
+  color: var(--green);
+}
+#our-teachers .our-teachers-des {
+  color: var(--gray);
+}
+#our-teachers .our-teachers-btn a {
+  color: var(--green);
+}
+#our-teachers .card {
+  margin-top: 50px;
+  border-radius: 10px;
+  border: none;
+  -webkit-box-shadow: 0px 0px 66px 49px rgba(34, 60, 80, 0.09);
+  -moz-box-shadow: 0px 0px 66px 49px rgba(34, 60, 80, 0.09);
+  box-shadow: 0px 0px 66px 49px rgba(34, 60, 80, 0.09);
+}
+#our-teachers .card .card-title {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #1b1d1f;
+}
+#our-teachers .card .card-desc {
+  margin-top: 10px !important;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #6d737a;
+}
+#our-teachers .card img {
+  border-radius: 10px 10px 0 0;
+  padding: 10px;
 }

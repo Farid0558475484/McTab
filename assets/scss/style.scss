@@ -91,6 +91,7 @@ p {
   .popular-course-item {
     margin-top: 30px;
     border: 1px solid #f1f1f1;
+    height: 100%;
     .popular-course-item-img {
       img {
         border-radius: 10px 10px 0 0;
@@ -98,6 +99,7 @@ p {
     }
     .popular-course-item-title {
       padding: 20px;
+
       h3 {
         font-size: 23px;
         font-weight: 600;
@@ -121,8 +123,52 @@ p {
       img {
         width: 15px;
         height: 15px;
-        
       }
+    }
+  }
+}
+
+#our-teachers {
+  margin: 100px 0;
+
+  .span-green {
+    color: var(--green);
+  }
+
+  .our-teachers-des {
+    color: var(--gray);
+  }
+  .our-teachers-btn {
+    a {
+      color: var(--green);
+    }
+  }
+
+  .card {
+    margin-top: 50px;
+    border-radius: 10px;
+    border: none;
+
+    -webkit-box-shadow: 0px 0px 66px 49px rgba(34, 60, 80, 0.09);
+    -moz-box-shadow: 0px 0px 66px 49px rgba(34, 60, 80, 0.09);
+    box-shadow: 0px 0px 66px 49px rgba(34, 60, 80, 0.09);
+
+    .card-title {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 21px;
+      color: #1b1d1f;
+    }
+    .card-desc {
+      margin-top: 10px !important;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 18px;
+      color: #6d737a;
+    }
+    img {
+      border-radius: 10px 10px 0 0;
+      padding: 10px;
     }
   }
 }
