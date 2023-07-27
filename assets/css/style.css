@@ -66,3 +66,50 @@ p {
 #popular-category .popular-category-item .popular-category-item-img img {
   border-radius: 0 0px 10px 10px;
 }
+
+#popular-course {
+  margin-top: 80px;
+}
+#popular-course .span-green {
+  color: var(--green);
+}
+#popular-course .popular-course-des {
+  color: var(--gray);
+}
+#popular-course .popular-course-btn a {
+  color: var(--green);
+}
+#popular-course .popular-course-item {
+  margin-top: 30px;
+  border: 1px solid #f1f1f1;
+}
+#popular-course .popular-course-item .popular-course-item-img img {
+  border-radius: 10px 10px 0 0;
+}
+#popular-course .popular-course-item .popular-course-item-title {
+  padding: 20px;
+}
+#popular-course .popular-course-item .popular-course-item-title h3 {
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  word-break: break-word;
+}
+#popular-course .popular-course-item .popular-course-item-title p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+#popular-course .popular-course-item .popular-course-item-title-star {
+  gap: 5px;
+}
+#popular-course .popular-course-item .popular-course-item-title-star .star-text {
+  color: #fbb500;
+  padding: 0 5px;
+}
+#popular-course .popular-course-item .popular-course-item-title-star img {
+  width: 15px;
+  height: 15px;
+}

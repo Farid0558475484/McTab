@@ -73,3 +73,56 @@ p {
     }
   }
 }
+
+#popular-course {
+  margin-top: 80px;
+  .span-green {
+    color: var(--green);
+  }
+
+  .popular-course-des {
+    color: var(--gray);
+  }
+  .popular-course-btn {
+    a {
+      color: var(--green);
+    }
+  }
+  .popular-course-item {
+    margin-top: 30px;
+    border: 1px solid #f1f1f1;
+    .popular-course-item-img {
+      img {
+        border-radius: 10px 10px 0 0;
+      }
+    }
+    .popular-course-item-title {
+      padding: 20px;
+      h3 {
+        font-size: 23px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        word-break: break-word;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+      }
+    }
+    .popular-course-item-title-star {
+      gap: 5px;
+      .star-text {
+        color: #fbb500;
+        padding: 0 5px;
+      }
+      img {
+        width: 15px;
+        height: 15px;
+        
+      }
+    }
+  }
+}
