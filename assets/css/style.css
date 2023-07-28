@@ -8,18 +8,6 @@
   padding: 0;
 }
 
-.prev,
-.prev-green {
-  width: 50px !important;
-  height: 40px;
-}
-
-.all-category {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 36px;
-}
-
 a {
   text-decoration: none !important;
 }
@@ -30,6 +18,18 @@ li {
 
 p {
   margin: 0 !important;
+}
+
+.prev,
+.prev-green {
+  width: 50px !important;
+  height: 40px;
+}
+
+.all-category {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 36px;
 }
 
 #popular-category {
@@ -280,4 +280,20 @@ p {
   font-size: 16px;
   font-weight: 600;
   line-height: 19px;
+}
+
+#teachers {
+  margin: 80px 0;
+}
+#teachers .teachers-des {
+  color: var(--gray);
+}
+#teachers .span-green {
+  color: var(--green);
+}
+#teachers .card-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #1b1d1f;
 }
