@@ -23,6 +23,9 @@
 a {
   text-decoration: none !important;
 }
+li {
+  list-style: none;
+}
 p {
   margin: 0 !important;
 }
@@ -74,9 +77,9 @@ p {
   }
 }
 @media only screen and (max-width: 767px) {
-  #popular-category{
+  #popular-category {
     margin: 20px 0;
-    .popular-category-item{
+    .popular-category-item {
       margin: 20px 0;
     }
   }
@@ -136,7 +139,7 @@ p {
   }
 }
 @media only screen and (max-width: 767px) {
-  #popular-course{
+  #popular-course {
     margin: 20px 0;
   }
 }
@@ -187,7 +190,7 @@ p {
 }
 
 @media only screen and (max-width: 767px) {
-  #our-teachers{
+  #our-teachers {
     margin: 20px 0 !important;
   }
 }
@@ -262,6 +265,63 @@ p {
     margin: 10px 0;
     .reviews-title {
       margin: 10px 0;
+    }
+  }
+}
+
+#footer {
+
+
+  margin: 80px 0;
+  .footer-logo {
+    img {
+      width: 144px;
+      height: 74px;
+    }
+  }
+
+  .footer-text {
+    margin: 25px 0 10px 0;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  .email-send {
+    input {
+
+      border: none;
+      height: 50px;
+      background-color: rgba(252, 250, 250, 0.944);
+      padding: 15px;
+      width: 250px;
+    }
+    button {
+      background-color: #1b1d1f;
+      color: white;
+      padding: 13px 29px;
+      border-radius: 5px;
+    }
+  }
+
+  .footer-list {
+    a {
+      color: rgba(41, 41, 41, 0.8);
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 16px;
+    }
+    ul {
+      margin: 0px !important;
+      padding: 0px !important;
+    }
+  }
+  .footer-title {
+  margin-top: 30px;
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 19px;
     }
   }
 }
