@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   padding: 0;
@@ -409,4 +410,31 @@ footer .footer-title h3 {
 
 .modal-backdrop.fade {
   opacity: 0 !important;
+}
+
+#teacher-info {
+  /* Дополнительные стили для родительского контейнера #teacher-info */
+}
+#teacher-info h1 {
+  color: rgba(4, 110, 8, 0.862745098);
+}
+@media (max-width: 768px) {
+  #teacher-info {
+    /* Медиа-запрос для респонсива (примерно на планшетах и мобильных устройствах) */
+  }
+  #teacher-info .profile-img {
+    text-align: center;
+  }
+  #teacher-info .teacher-info {
+    text-align: center;
+  }
+  #teacher-info .a {
+    order: 2;
+    /* Меняем порядок класса .a на первый */
+  }
+  #teacher-info .b {
+    order: 1;
+    margin: 20px 0;
+    /* Меняем порядок класса .b на второй */
+  }
 }

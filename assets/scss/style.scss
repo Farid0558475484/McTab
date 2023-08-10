@@ -478,3 +478,31 @@ footer {
 .modal-backdrop.fade {
   opacity: 0 !important;
 }
+
+#teacher-info {
+  /* Дополнительные стили для родительского контейнера #teacher-info */
+  h1 {
+    color: #046e08dc;
+  }
+  @media (max-width: 768px) {
+    /* Медиа-запрос для респонсива (примерно на планшетах и мобильных устройствах) */
+    .profile-img {
+      text-align: center;
+    }
+
+    .teacher-info {
+      text-align: center;
+    }
+    .a {
+      order: 2;
+      /* Меняем порядок класса .a на первый */
+    }
+
+    .b {
+      order: 1;
+      margin: 20px 0;
+
+      /* Меняем порядок класса .b на второй */
+    }
+  }
+}
